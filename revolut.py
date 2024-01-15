@@ -29,7 +29,7 @@ TIME_FORMAT = '%H:%M:%S'
 # DATETIME_FORMAT = DATE_FORMAT + TIME_FORMAT
 DATETIME_FORMAT = DATE_FORMAT
 
-FEE_NAME = 'Deloitte'
+FEE_NAME = '#####'
 FEE_IBAN = ''
 FEE_DESCRIPTION_FORMAT = 'Bank transaction fee {}'
 FEE_DATETIME_DELTA = timedelta(seconds=1)
