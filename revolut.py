@@ -93,6 +93,7 @@ class CsvReader:
             return datetime.strptime(date_str , DATETIME_FORMAT).date()
 
 
+        
         # _0, _1, completed_date_str, completed_time_str, _4, _5, name, description, _8, _9, _10, \
         # _11, _12, _13, amount_str, fee_str, balance_str, _17, _18, _19, iban, _21 \
         #     = row
