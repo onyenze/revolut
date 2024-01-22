@@ -88,9 +88,13 @@ class CsvReader:
         # def _parse_datetime(date_str, time_str):
         #     return datetime.strptime(date_str + time_str, DATETIME_FORMAT)
         
+
+
         def _parse_datetime(date_str):
             print(','.join(date_str.split('-')))
             return datetime.strptime(date_str , DATETIME_FORMAT).date()
+
+
 
 
         
