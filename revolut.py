@@ -108,6 +108,9 @@ class CsvReader:
         withdrawal, deposit,   balance = \
             float(withdrawal_str.replace(',','')), float(lodgement_str.replace(',','')), float(balance_str.replace(',',''))
 
+
+
+
         transaction_without_fee = Transaction(
             amount=withdrawal,
             name=_santize_name(''),
